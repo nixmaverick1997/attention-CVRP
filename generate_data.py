@@ -13,7 +13,8 @@ def generate_vrp_data(dataset_size, vrp_size):
         10: 20.,
         20: 30.,
         50: 40.,
-        100: 50.
+        100: 50.,
+        200: 60.,
     }
     return list(zip(
         np.random.uniform(size=(dataset_size, 2)).tolist(),  # Depot location

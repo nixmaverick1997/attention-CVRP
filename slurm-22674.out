@@ -1,0 +1,2 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+slurmstepd: error: *** JOB 22674 ON tx01 CANCELLED AT 2023-02-13T08:15:47 ***

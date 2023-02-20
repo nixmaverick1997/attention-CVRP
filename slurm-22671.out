@@ -1,0 +1,7 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/lkh-solver.py", line 9, in <module>
+    lkh.solve(solver_path, problem=problem, max_trials=10000, runs=10)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/lkh/__init__.py", line 11, in solve
+    assert shutil.which(solver) is not None, f'{solver} not found.'
+AssertionError: LKH-3.0.6 not found.

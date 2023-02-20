@@ -1,0 +1,13 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+
+*** Veuillez me dire qui vous êtes.
+
+Lancez
+
+  git config --global user.email "Vous@exemple.com"
+  git config --global user.name "Votre Nom"
+
+pour régler l'identité par défaut de votre compte.
+Éliminez --global pour ne faire les réglages que dans ce dépôt.
+
+fatal: impossible de détecter automatiquement l'adresse ('nair@tx01.(none)' trouvé)

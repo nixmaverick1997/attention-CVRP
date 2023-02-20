@@ -1,0 +1,51 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+error: option inconnue « final »
+usage : git commit [<options>] [--] <spécification-de-chemin>...
+
+    -q, --quiet           supprimer le résumé après une validation réussie
+    -v, --verbose         afficher les diff dans le modèle de message de validation
+
+Options du message de validation
+    -F, --file <fichier>  lire le message depuis un fichier
+    --author <auteur>     remplacer l'auteur pour la validation
+    --date <date>         remplacer la date pour la validation
+    -m, --message <message>
+                          message de validation
+    -c, --reedit-message <commit>
+                          réutiliser et éditer le message du commit spécifié
+    -C, --reuse-message <commit>
+                          réutiliser le message du commit spécifié
+    --fixup <commit>      utiliser un message au format autosquash pour corriger le commit spécifié
+    --squash <commit>     utiliser un message au format autosquash pour compresser le commit spécifié
+    --reset-author        à présent je suis l'auteur de la validation (utilisé avec -C/-c/--amend)
+    -s, --signoff         ajouter une entrée Signed-off-by :
+    -t, --template <fichier>
+                          utiliser le fichier de modèle spécifié
+    -e, --edit            forcer l'édition du commit
+    --cleanup <mode>      comment éliminer les espaces et les commentaires # du message
+    --status              inclure l'état dans le modèle de message de validation
+    -S, --gpg-sign[=<id-clé>]
+                          signer la validation avec GPG
+
+Valider les options des contenus
+    -a, --all             valider tous les fichiers modifiés
+    -i, --include         ajouter les fichiers spécifiés à l'index pour la validation
+    --interactive         ajouter des fichiers en mode interactif
+    -p, --patch           ajouter les modifications en mode interactif
+    -o, --only            valider seulement les fichiers spécifiés
+    -n, --no-verify       éviter d'utiliser les crochets pre-commit et commit-msg
+    --dry-run             afficher ce qui serait validé
+    --short               afficher l'état avec concision
+    --branch              afficher l'information de branche
+    --ahead-behind        calcule les valeurs complètes en avance/en retard
+    --porcelain           sortie pour traitement automatique
+    --long                afficher l'état en format long (par défaut)
+    -z, --null            terminer les éléments par NUL
+    --amend               corriger la validation précédente
+    --no-post-rewrite     éviter d'utiliser le crochet post-rewrite
+    -u, --untracked-files[=<mode>]
+                          afficher les fichiers non suivis, "mode" facultatif : all (tous), normal, no. (Défaut : all)
+    --pathspec-from-file <fichier>
+                          lire les spécificateurs de fichier depuis fichier
+    --pathspec-file-nul   avec --pathspec-from-file, les spécificateurs de chemin sont séparés par un caractère NUL
+

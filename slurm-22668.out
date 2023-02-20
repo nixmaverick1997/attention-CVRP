@@ -1,0 +1,62 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fab82992c70>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //vrp.atd-lab.inf.puc-rio.br/media/com_vrp/instances/CMT/CMT8.vrp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab82992c70>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/LKH-3.0.6/lkh-solver.py", line 4, in <module>
+    problem_str = requests.get('http://http://vrp.atd-lab.inf.puc-rio.br/media/com_vrp/instances/CMT/CMT8.vrp').text
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //vrp.atd-lab.inf.puc-rio.br/media/com_vrp/instances/CMT/CMT8.vrp (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab82992c70>: Failed to establish a new connection: [Errno -2] Name or service not known'))

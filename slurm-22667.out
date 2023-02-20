@@ -1,0 +1,258 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+--2023-02-13 08:02:33--  http://akira.ruc.dk/~keld/research/LKH-3/LKH-3.0.8.tgz
+Résolution de akira.ruc.dk (akira.ruc.dk)… 130.225.220.230
+Connexion à akira.ruc.dk (akira.ruc.dk)|130.225.220.230|:80… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 2318360 (2,2M) [application/x-gzip]
+Enregistre : «LKH-3.0.8.tgz»
+
+     0K .......... .......... .......... .......... ..........  2%  527K 4s
+    50K .......... .......... .......... .......... ..........  4%  733K 4s
+   100K .......... .......... .......... .......... ..........  6% 1,16M 3s
+   150K .......... .......... .......... .......... ..........  8% 1,53M 2s
+   200K .......... .......... .......... .......... .......... 11% 4,61M 2s
+   250K .......... .......... .......... .......... .......... 13% 1,63M 2s
+   300K .......... .......... .......... .......... .......... 15% 11,9M 2s
+   350K .......... .......... .......... .......... .......... 17% 3,03M 1s
+   400K .......... .......... .......... .......... .......... 19% 2,12M 1s
+   450K .......... .......... .......... .......... .......... 22% 3,60M 1s
+   500K .......... .......... .......... .......... .......... 24% 1,42M 1s
+   550K .......... .......... .......... .......... .......... 26% 97,4M 1s
+   600K .......... .......... .......... .......... .......... 28% 1,80M 1s
+   650K .......... .......... .......... .......... .......... 30% 2,08M 1s
+   700K .......... .......... .......... .......... .......... 33% 5,58M 1s
+   750K .......... .......... .......... .......... .......... 35% 1,74M 1s
+   800K .......... .......... .......... .......... .......... 37% 2,30M 1s
+   850K .......... .......... .......... .......... .......... 39% 3,85M 1s
+   900K .......... .......... .......... .......... .......... 41% 2,83M 1s
+   950K .......... .......... .......... .......... .......... 44% 2,19M 1s
+  1000K .......... .......... .......... .......... .......... 46% 2,84M 1s
+  1050K .......... .......... .......... .......... .......... 48% 3,20M 1s
+  1100K .......... .......... .......... .......... .......... 50% 2,48M 1s
+  1150K .......... .......... .......... .......... .......... 53% 2,20M 1s
+  1200K .......... .......... .......... .......... .......... 55% 4,13M 0s
+  1250K .......... .......... .......... .......... .......... 57% 1,66M 0s
+  1300K .......... .......... .......... .......... .......... 59% 11,3M 0s
+  1350K .......... .......... .......... .......... .......... 61% 2,10M 0s
+  1400K .......... .......... .......... .......... .......... 64% 2,03M 0s
+  1450K .......... .......... .......... .......... .......... 66% 16,3M 0s
+  1500K .......... .......... .......... .......... .......... 68% 1,68M 0s
+  1550K .......... .......... .......... .......... .......... 70% 5,58M 0s
+  1600K .......... .......... .......... .......... .......... 72% 1,40M 0s
+  1650K .......... .......... .......... .......... .......... 75% 4,48M 0s
+  1700K .......... .......... .......... .......... .......... 77% 4,38M 0s
+  1750K .......... .......... .......... .......... .......... 79% 1,41M 0s
+  1800K .......... .......... .......... .......... .......... 81% 8,89M 0s
+  1850K .......... .......... .......... .......... .......... 83% 2,30M 0s
+  1900K .......... .......... .......... .......... .......... 86% 2,41M 0s
+  1950K .......... .......... .......... .......... .......... 88% 2,59M 0s
+  2000K .......... .......... .......... .......... .......... 90% 3,60M 0s
+  2050K .......... .......... .......... .......... .......... 92% 4,48M 0s
+  2100K .......... .......... .......... .......... .......... 94% 1,86M 0s
+  2150K .......... .......... .......... .......... .......... 97% 1,63M 0s
+  2200K .......... .......... .......... .......... .......... 99% 6,58M 0s
+  2250K .......... ....                                       100%  110M=1,0s
+
+2023-02-13 08:02:34 (2,25 MB/s) - «LKH-3.0.8.tgz» enregistré [2318360/2318360]
+
+LKH-3.0.6/
+LKH-3.0.6/pr2392.par
+LKH-3.0.6/.DS_Store
+LKH-3.0.6/whizzkids96.atsp
+LKH-3.0.6/Makefile
+LKH-3.0.6/whizzkids96.par
+LKH-3.0.6/pr2392.tsp
+LKH-3.0.6/DOC/
+LKH-3.0.6/README.txt
+LKH-3.0.6/SRC/
+LKH-3.0.6/SRC/Penalty_CVRPTW.c
+LKH-3.0.6/SRC/RestoreTour.c
+LKH-3.0.6/SRC/SolveKMeansSubproblems.c
+LKH-3.0.6/SRC/IsCommonEdge.c
+LKH-3.0.6/SRC/Penalty_TSPPD.c
+LKH-3.0.6/SRC/ReadProblem.c
+LKH-3.0.6/SRC/BestKOptMove.c
+LKH-3.0.6/SRC/Distance_SPECIAL.c
+LKH-3.0.6/SRC/Penalty_TSPDL.c
+LKH-3.0.6/SRC/Penalty_PDPTW.c
+LKH-3.0.6/SRC/Penalty_ACVRP.c
+LKH-3.0.6/SRC/CreateCandidateSet.c
+LKH-3.0.6/SRC/OBJ/
+LKH-3.0.6/SRC/Forbidden.c
+LKH-3.0.6/SRC/Penalty_CCVRP.c
+LKH-3.0.6/SRC/Penalty_M_PDTSP.c
+LKH-3.0.6/SRC/Best5OptMove.c
+LKH-3.0.6/SRC/RecordBetterTour.c
+LKH-3.0.6/SRC/Best4OptMove.c
+LKH-3.0.6/SRC/Exclude.c
+LKH-3.0.6/SRC/C.c
+LKH-3.0.6/SRC/IsCandidate.c
+LKH-3.0.6/SRC/Make3OptMove.c
+LKH-3.0.6/SRC/Make2OptMove.c
+LKH-3.0.6/SRC/ResetCandidateSet.c
+LKH-3.0.6/SRC/LKHmain.c
+LKH-3.0.6/SRC/SolveSFCSubproblems.c
+LKH-3.0.6/SRC/ERXT.c
+LKH-3.0.6/SRC/fscanint.c
+LKH-3.0.6/SRC/eprintf.c
+LKH-3.0.6/SRC/Distance_SOP.c
+LKH-3.0.6/SRC/Distance_MTSP.c
+LKH-3.0.6/SRC/Penalty_VRPPD.c
+LKH-3.0.6/SRC/SINTEF_WriteSolution.c
+LKH-3.0.6/SRC/Gain23.c
+LKH-3.0.6/SRC/Heap.c
+LKH-3.0.6/SRC/GetTime.c
+LKH-3.0.6/SRC/SolveRoheSubproblems.c
+LKH-3.0.6/SRC/ReadPenalties.c
+LKH-3.0.6/SRC/Excludable.c
+LKH-3.0.6/SRC/SolveCompressedSubproblem.c
+LKH-3.0.6/SRC/Statistics.c
+LKH-3.0.6/SRC/PatchCycles.c
+LKH-3.0.6/SRC/MergeWithTourGPX2.c
+LKH-3.0.6/SRC/Sequence.c
+LKH-3.0.6/SRC/SolveDelaunaySubproblems.c
+LKH-3.0.6/SRC/WritePenalties.c
+LKH-3.0.6/SRC/NormalizeNodeList.c
+LKH-3.0.6/SRC/FreeStructures.c
+LKH-3.0.6/SRC/SolveKarpSubproblems.c
+LKH-3.0.6/SRC/Makefile
+LKH-3.0.6/SRC/CVRP_InitialTour.c
+LKH-3.0.6/SRC/Between_SL.c
+LKH-3.0.6/SRC/Penalty_OVRP.c
+LKH-3.0.6/SRC/SOP_InitialTour.c
+LKH-3.0.6/SRC/INCLUDE/
+LKH-3.0.6/SRC/Penalty_MLP.c
+LKH-3.0.6/SRC/IsPossibleCandidate.c
+LKH-3.0.6/SRC/Penalty_VRPBTW.c
+LKH-3.0.6/SRC/NormalizeSegmentList.c
+LKH-3.0.6/SRC/Penalty_BWTSP.c
+LKH-3.0.6/SRC/STTSP2TSP.c
+LKH-3.0.6/SRC/Hashing.c
+LKH-3.0.6/SRC/LinKernighan.c
+LKH-3.0.6/SRC/Penalty_CVRP.c
+LKH-3.0.6/SRC/gpx.c
+LKH-3.0.6/SRC/AdjustCandidateSet.c
+LKH-3.0.6/SRC/AllocateStructures.c
+LKH-3.0.6/SRC/Flip_SSL.c
+LKH-3.0.6/SRC/MakeKOptMove.c
+LKH-3.0.6/SRC/BuildKDTree.c
+LKH-3.0.6/SRC/SolveTourSegmentSubproblems.c
+LKH-3.0.6/SRC/Random.c
+LKH-3.0.6/SRC/CreateDelaunayCandidateSet.c
+LKH-3.0.6/SRC/MTSP_WriteSolution.c
+LKH-3.0.6/SRC/Penalty_PDTSPF.c
+LKH-3.0.6/SRC/SolveSubproblemBorderProblems.c
+LKH-3.0.6/SRC/Penalty_PDTSPL.c
+LKH-3.0.6/SRC/ReadParameters.c
+LKH-3.0.6/SRC/MTSP_Report.c
+LKH-3.0.6/SRC/Penalty_TRP.c
+LKH-3.0.6/SRC/FixedOrCommonCandidates.c
+LKH-3.0.6/SRC/Penalty_CTSP.c
+LKH-3.0.6/SRC/Penalty_SOP.c
+LKH-3.0.6/SRC/Best2OptMove.c
+LKH-3.0.6/SRC/Best3OptMove.c
+LKH-3.0.6/SRC/ReadCandidates.c
+LKH-3.0.6/SRC/Make4OptMove.c
+LKH-3.0.6/SRC/Make5OptMove.c
+LKH-3.0.6/SRC/CreateNNCandidateSet.c
+LKH-3.0.6/SRC/GenerateCandidates.c
+LKH-3.0.6/SRC/Between.c
+LKH-3.0.6/SRC/Flip_SL.c
+LKH-3.0.6/SRC/SOP_RepairTour.c
+LKH-3.0.6/SRC/Activate.c
+LKH-3.0.6/SRC/SegmentSize.c
+LKH-3.0.6/SRC/SolveSubproblem.c
+LKH-3.0.6/SRC/MergeWithTourIPT.c
+LKH-3.0.6/SRC/StoreTour.c
+LKH-3.0.6/SRC/GreedyTour.c
+LKH-3.0.6/SRC/PrintParameters.c
+LKH-3.0.6/SRC/Penalty_M1_PDTSP.c
+LKH-3.0.6/SRC/SFCTour.c
+LKH-3.0.6/SRC/Penalty_PDTSP.c
+LKH-3.0.6/SRC/Penalty_VRPB.c
+LKH-3.0.6/SRC/Minimum1TreeCost.c
+LKH-3.0.6/SRC/MTSP2TSP.c
+LKH-3.0.6/SRC/MergeTourWithBestTour.c
+LKH-3.0.6/SRC/ReadEdges.c
+LKH-3.0.6/SRC/BridgeGain.c
+LKH-3.0.6/SRC/WriteCandidates.c
+LKH-3.0.6/SRC/PDPTW_Reduce.c
+LKH-3.0.6/SRC/Flip.c
+LKH-3.0.6/SRC/WriteTour.c
+LKH-3.0.6/SRC/Delaunay.c
+LKH-3.0.6/SRC/TSPDL_InitialTour.c
+LKH-3.0.6/SRC/VRPB_Reduce.c
+LKH-3.0.6/SRC/CreateQuadrantCandidateSet.c
+LKH-3.0.6/SRC/IsBackboneCandidate.c
+LKH-3.0.6/SRC/Penalty_MTSP.c
+LKH-3.0.6/SRC/ReadLine.c
+LKH-3.0.6/SRC/RecordBestTour.c
+LKH-3.0.6/SRC/CandidateReport.c
+LKH-3.0.6/SRC/OrderCandidateSet.c
+LKH-3.0.6/SRC/CTSP_InitialTour.c
+LKH-3.0.6/SRC/AddExtraCandidates.c
+LKH-3.0.6/SRC/Distance.c
+LKH-3.0.6/SRC/Genetic.c
+LKH-3.0.6/SRC/AdjustClusters.c
+LKH-3.0.6/SRC/AddTourCandidates.c
+LKH-3.0.6/SRC/BIT.c
+LKH-3.0.6/SRC/KSwapKick.c
+LKH-3.0.6/SRC/Connect.c
+LKH-3.0.6/SRC/RemoveFirstActive.c
+LKH-3.0.6/SRC/Ascent.c
+LKH-3.0.6/SRC/TrimCandidateSet.c
+LKH-3.0.6/SRC/StatusReport.c
+LKH-3.0.6/SRC/LKH.c
+LKH-3.0.6/SRC/TSPTW_Reduce.c
+LKH-3.0.6/SRC/printff.c
+LKH-3.0.6/SRC/Between_SSL.c
+LKH-3.0.6/SRC/SOP_Report.c
+LKH-3.0.6/SRC/Create_POPMUSIC_CandidateSet.c
+LKH-3.0.6/SRC/MTSP_InitialTour.c
+LKH-3.0.6/SRC/Improvement.c
+LKH-3.0.6/SRC/GeoConversion.c
+LKH-3.0.6/SRC/FindTour.c
+LKH-3.0.6/SRC/TSPTW_MakespanCost.c
+LKH-3.0.6/SRC/SymmetrizeCandidateSet.c
+LKH-3.0.6/SRC/ChooseInitialTour.c
+LKH-3.0.6/SRC/SolveKCenterSubproblems.c
+LKH-3.0.6/SRC/Penalty_1_PDTSP.c
+LKH-3.0.6/SRC/AddCandidate.c
+LKH-3.0.6/SRC/Penalty_TSPTW.c
+LKH-3.0.6/SRC/Penalty_RCTVRP.c
+LKH-3.0.6/SRC/MinimumSpanningTree.c
+LKH-3.0.6/SRC/BestSpecialOptMove.c
+LKH-3.0.6/SRC/INCLUDE/Genetic.h
+LKH-3.0.6/SRC/INCLUDE/.DS_Store
+LKH-3.0.6/SRC/INCLUDE/Segment.h
+LKH-3.0.6/SRC/INCLUDE/Delaunay.h
+LKH-3.0.6/SRC/INCLUDE/GeoConversion.h
+LKH-3.0.6/SRC/INCLUDE/LKH.h
+LKH-3.0.6/SRC/INCLUDE/BIT.h
+LKH-3.0.6/SRC/INCLUDE/Sequence.h
+LKH-3.0.6/SRC/INCLUDE/GainType.h
+LKH-3.0.6/SRC/INCLUDE/Heap.h
+LKH-3.0.6/SRC/INCLUDE/Hashing.h
+LKH-3.0.6/SRC/INCLUDE/gpx.h
+LKH-3.0.6/DOC/POPMUSIC_REPORT.pdf
+LKH-3.0.6/DOC/LKH_Genetic.pdf
+LKH-3.0.6/DOC/LKH_REPORT.pdf
+LKH-3.0.6/DOC/LKH-2_USER_GUIDE.pdf
+LKH-3.0.6/DOC/TSPLIB_DOC.pdf
+LKH-3.0.6/DOC/LKH-3_PARAMETERS.pdf
+LKH-3.0.6/DOC/LKH-3_REPORT.pdf
+make -C SRC
+make[1] : on entre dans le répertoire « /usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/LKH-3.0.6/SRC »
+make LKH
+make[2] : on entre dans le répertoire « /usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/LKH-3.0.6/SRC »
+cc -o ../LKH OBJ/Activate.o OBJ/AddCandidate.o OBJ/AddExtraCandidates.o OBJ/AddTourCandidates.o OBJ/AdjustCandidateSet.o OBJ/AdjustClusters.o OBJ/AllocateStructures.o OBJ/Ascent.o OBJ/Best2OptMove.o OBJ/Best3OptMove.o OBJ/Best4OptMove.o OBJ/Best5OptMove.o OBJ/BestKOptMove.o OBJ/BestSpecialOptMove.o OBJ/Between.o OBJ/Between_SL.o OBJ/Between_SSL.o OBJ/BridgeGain.o OBJ/BuildKDTree.o OBJ/C.o OBJ/CandidateReport.o OBJ/ChooseInitialTour.o OBJ/Connect.o OBJ/CreateCandidateSet.o OBJ/CreateDelaunayCandidateSet.o OBJ/CreateNNCandidateSet.o OBJ/Create_POPMUSIC_CandidateSet.o OBJ/CreateQuadrantCandidateSet.o OBJ/CTSP_InitialTour.o OBJ/CVRP_InitialTour.o OBJ/Delaunay.o OBJ/Distance.o OBJ/Distance_MTSP.o OBJ/Distance_SOP.o OBJ/Distance_SPECIAL.o OBJ/eprintf.o OBJ/ERXT.o OBJ/Excludable.o OBJ/Exclude.o OBJ/FindTour.o OBJ/FixedOrCommonCandidates.o OBJ/Flip.o OBJ/Flip_SL.o OBJ/Flip_SSL.o OBJ/Forbidden.o OBJ/FreeStructures.o OBJ/fscanint.o OBJ/Gain23.o OBJ/GenerateCandidates.o OBJ/Genetic.o OBJ/GeoConversion.o OBJ/GetTime.o OBJ/GreedyTour.o OBJ/Hashing.o OBJ/Heap.o OBJ/Improvement.o OBJ/IsBackboneCandidate.o OBJ/IsCandidate.o OBJ/IsCommonEdge.o OBJ/IsPossibleCandidate.o OBJ/KSwapKick.o OBJ/LinKernighan.o OBJ/LKHmain.o OBJ/Make2OptMove.o OBJ/Make3OptMove.o OBJ/Make4OptMove.o OBJ/Make5OptMove.o OBJ/MakeKOptMove.o OBJ/MergeTourWithBestTour.o OBJ/MergeWithTourIPT.o OBJ/Minimum1TreeCost.o OBJ/MinimumSpanningTree.o OBJ/MTSP2TSP.o OBJ/MTSP_InitialTour.o OBJ/MTSP_Report.o OBJ/MTSP_WriteSolution.o OBJ/NormalizeNodeList.o OBJ/NormalizeSegmentList.o OBJ/OrderCandidateSet.o OBJ/PatchCycles.o OBJ/Penalty_ACVRP.o OBJ/Penalty_BWTSP.o OBJ/Penalty_CCVRP.o OBJ/Penalty_CVRP.o OBJ/Penalty_CVRPTW.o OBJ/Penalty_CTSP.o OBJ/Penalty_1_PDTSP.o OBJ/Penalty_MLP.o OBJ/Penalty_M_PDTSP.o OBJ/Penalty_M1_PDTSP.o OBJ/Penalty_MTSP.o OBJ/Penalty_OVRP.o OBJ/Penalty_PDPTW.o OBJ/Penalty_PDTSP.o OBJ/Penalty_PDTSPF.o OBJ/Penalty_PDTSPL.o OBJ/Penalty_RCTVRP.o OBJ/Penalty_SOP.o OBJ/Penalty_TRP.o OBJ/Penalty_TSPDL.o OBJ/Penalty_TSPPD.o OBJ/Penalty_TSPTW.o OBJ/Penalty_VRPB.o OBJ/Penalty_VRPBTW.o OBJ/Penalty_VRPPD.o OBJ/PDPTW_Reduce.o OBJ/printff.o OBJ/PrintParameters.o OBJ/Random.o OBJ/ReadCandidates.o OBJ/ReadEdges.o OBJ/ReadLine.o OBJ/ReadParameters.o OBJ/ReadPenalties.o OBJ/ReadProblem.o OBJ/RecordBestTour.o OBJ/RecordBetterTour.o OBJ/RemoveFirstActive.o OBJ/ResetCandidateSet.o OBJ/RestoreTour.o OBJ/SegmentSize.o OBJ/Sequence.o OBJ/SFCTour.o OBJ/SolveCompressedSubproblem.o OBJ/SINTEF_WriteSolution.o OBJ/SOP_RepairTour.o OBJ/STTSP2TSP.o OBJ/SolveDelaunaySubproblems.o OBJ/SolveKarpSubproblems.o OBJ/SolveKCenterSubproblems.o OBJ/SolveKMeansSubproblems.o OBJ/SolveRoheSubproblems.o OBJ/SolveSFCSubproblems.o OBJ/SolveSubproblem.o OBJ/SolveSubproblemBorderProblems.o OBJ/SolveTourSegmentSubproblems.o OBJ/SOP_InitialTour.o OBJ/SOP_Report.o OBJ/StatusReport.o OBJ/Statistics.o OBJ/StoreTour.o OBJ/SymmetrizeCandidateSet.o OBJ/TrimCandidateSet.o OBJ/TSPDL_InitialTour.o OBJ/TSPTW_MakespanCost.o OBJ/TSPTW_Reduce.o OBJ/VRPB_Reduce.o OBJ/BIT.o OBJ/WriteCandidates.o OBJ/WritePenalties.o OBJ/WriteTour.o OBJ/MergeWithTourGPX2.o OBJ/gpx.o OBJ/LKH.o -O3 -Wall -IINCLUDE -DTWO_LEVEL_TREE -g -lm
+make[2] : on quitte le répertoire « /usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/LKH-3.0.6/SRC »
+make[1] : on quitte le répertoire « /usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/LKH-3.0.6/SRC »
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Requirement already satisfied: lkh in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (1.1.1)
+Requirement already satisfied: tsplib95 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from lkh) (0.7.1)
+Requirement already satisfied: Click>=6.0 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from tsplib95->lkh) (8.1.3)
+Requirement already satisfied: Deprecated~=1.2.9 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from tsplib95->lkh) (1.2.13)
+Requirement already satisfied: networkx~=2.1 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from tsplib95->lkh) (2.8.8)
+Requirement already satisfied: tabulate~=0.8.7 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from tsplib95->lkh) (0.8.10)
+Requirement already satisfied: wrapt<2,>=1.10 in /usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages (from Deprecated~=1.2.9->tsplib95->lkh) (1.14.1)

@@ -1,0 +1,2 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+GPU 0: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-55eaad7d-8fd8-5cf6-a56c-eb8ca7aeb6da)

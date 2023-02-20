@@ -1,0 +1,22 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Mon Feb 13 09:55:58 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.85.12    Driver Version: 525.85.12    CUDA Version: 12.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  On   | 00000000:B3:00.0 Off |                  N/A |
+|  0%   34C    P8     1W / 260W |     65MiB / 11264MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      1370      G   /usr/lib/xorg/Xorg                 56MiB |
+|    0   N/A  N/A      1538      G   /usr/bin/gnome-shell                7MiB |
++-----------------------------------------------------------------------------+

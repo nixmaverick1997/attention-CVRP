@@ -1,0 +1,20 @@
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/tsplib95/fields.py", line 129, in parse
+    return self.tf.parse(text)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/tsplib95/transformers.py", line 81, in parse
+    raise exceptions.ParsingError(error)
+tsplib95.exceptions.ParsingError: could not convert text to number: 230.00000
+SERVICE_TIME : 10.0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/users/bdmagr2/nair/Documents/BDRP_CVRP/attention-CVRP/lkh-solver.py", line 5, in <module>
+    problem = lkh.LKHProblem.parse(problem_str)
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/tsplib95/models.py", line 118, in parse
+    data[name] = field.parse(value.strip())
+  File "/usr/users/bdmagr2/nair/.conda/envs/CVRP_env/lib/python3.9/site-packages/tsplib95/fields.py", line 132, in parse
+    raise exceptions.ParsingError.wrap(e, context)
+tsplib95.exceptions.ParsingError: NumberField(DISTANCE): could not convert text to number: 230.00000
+SERVICE_TIME : 10.0
